@@ -19,4 +19,4 @@ Using one of the above APIs, build a single page application that uses fetch() t
 
 ## My Solution
 
-You can view my solution here: 
+You can view my solution here: https://miracoly.github.io/ztm-chuckNorris/
