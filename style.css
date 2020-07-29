@@ -9,7 +9,7 @@ html, body {
 }
 
 h1 {
-  margin-bottom: 60px;
+  margin-bottom: 10px;
   font-size: 2em;
   font-weight: 700;
 }
@@ -17,6 +17,15 @@ h1 {
 a {
   text-decoration: none;
   color: #000;
+}
+
+#author {
+  margin: 10px 0 45px 0;
+  color: #676;
+}
+
+#author a {
+  color: #676;
 }
 
 #github {
