@@ -1,0 +1,37 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 60px;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.ct-parent {
+  display: grid;
+  place-items: center;
+  background-color: aquamarine;
+  min-height: 100vh;
+}
+
+.ct-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+  padding: 30px;
+}
