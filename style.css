@@ -1,5 +1,6 @@
 * {
   font-family: 'Poppins', sans-serif;
+  color: #343;
 }
 
 html, body {
@@ -8,15 +9,36 @@ html, body {
 }
 
 h1 {
-  margin: 60px;
+  margin-bottom: 60px;
   font-size: 2em;
   font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+#github {
+  width: 30px;
+  vertical-align: middle;
+}
+
+#code {
+  margin-top: 45px;
+}
+
+#btn {
+  font-size: 1em;
+}
+
+#joke {
+  font-size: 1.1em;
 }
 
 .ct-parent {
   display: grid;
   place-items: center;
-  background-color: aquamarine;
   min-height: 100vh;
 }
 
@@ -25,6 +47,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 30px;
 }
 
 .container {
@@ -32,6 +55,6 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: burlywood;
+  background-color: #efefef;
   padding: 30px;
 }
